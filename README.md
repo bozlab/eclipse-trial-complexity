@@ -53,16 +53,6 @@ The six disease domains and corresponding MeSH identifiers were:
 
 Because conditions may map to more than one disease domain within the MeSH hierarchy, trials could be assigned to multiple domains. Trials that did not map to any of the six selected domains were not included in the disease-domain analyses.
 
-## Eligibility-criteria processing
-
-Eligibility criteria were processed at the study level using the complete eligibility text. Text was normalized, and inclusion and exclusion section headings were identified. Because analyses were conducted on the complete eligibility field rather than separately by inclusion and exclusion sections, studies without identifiable section headings were retained.
-
-Generic introductory phrases at the beginning of recognized inclusion and exclusion sections were removed. For text-based analyses, section headings and list markers were removed.
-
-The number of listed eligibility items was determined from bullet, numeric, alphabetic, and Roman numeral lists, with sub-items excluded from the count. Sentence-like units were identified using line breaks, sentence-ending punctuation, and list formatting. Mean sentence length was calculated by dividing the total word count by the number of sentence-like units.
-
-Flesch Reading Ease was used to assess readability, with higher scores indicating more readable text. Quantitative, temporal, negation, conditional, and exception expressions were identified using predefined regular expressions. An expression was considered present for a study when at least one occurrence was detected in its eligibility text.
-
 ## Data and generated files
 
 Large raw, intermediate, and derived data files are not included in this repository because of their size. The source trial data are publicly available from ClinicalTrials.gov.
@@ -87,8 +77,4 @@ https://clinicaltrials.gov/data-api/api
 
 ## Citation
 
-Citation information will be added following publication of the associated study.
 
-## License
-
-License information will be added before public release.
