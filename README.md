@@ -61,12 +61,6 @@ The data used for the reported analyses were retrieved on **August 27, 2026**. C
 
 The computational workflow can be reproduced by running the notebooks sequentially, beginning with `CT_data.ipynb`. The notebooks generate the required intermediate and output files as the workflow progresses.
 
-## Quality control
-
-Quality-control and reconciliation procedures are incorporated throughout the workflow. These include checks of study identifiers, record counts, expected variables, disease-domain assignments, preprocessing outputs, generated files, and consistency between successive stages of the pipeline.
-
-The dedicated `qc.ipynb` notebook performs final quality-control and reconciliation checks before analysis.
-
 ## Data source
 
 ClinicalTrials.gov  
