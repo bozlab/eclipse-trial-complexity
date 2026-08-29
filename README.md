@@ -1,6 +1,6 @@
 # Characterizing the Textual Complexity of Eligibility Criteria Across Disease Domains in Interventional Clinical Trials
 
-This repository contains the code used to retrieve, process, and analyze ClinicalTrials.gov data for a study examining the textual complexity of clinical trial eligibility criteria across disease domains.
+This repository contains the code used to retrieve, process, and analyze ClinicalTrials.gov data for the study examining the textual complexity of clinical trial eligibility criteria across disease domains.
 
 ## Study overview
 
